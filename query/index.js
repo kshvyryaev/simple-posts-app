@@ -36,7 +36,7 @@ const handleEvent = (type, data) => {
   }
 };
 
-app.get('/posts', (req, res) => {
+app.get('/posts-query', (req, res) => {
   res.send(posts);
 });
 
